@@ -9,7 +9,7 @@ def load_vocab(file_path):
     return words
 
 
-vocabs = load_vocab(file_path="C:/Users/Admin/Downloads/source/source/data/vocab.txt")
+vocabs = load_vocab(file_path="source/source/data/vocab.txt")
 
 
 def levenshtein_distance(token1, token2):

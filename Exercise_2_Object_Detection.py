@@ -3,8 +3,8 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 
-MODEL = "C:/Users/Admin/Downloads/source/source/model/MobileNetSSD_deploy.caffemodel"
-PROTOTXT = "C:/Users/Admin/Downloads/source/source/model/MobileNetSSD_deploy.prototxt.txt"
+MODEL = "source/source/model/MobileNetSSD_deploy.caffemodel"
+PROTOTXT = "source/source/model/MobileNetSSD_deploy.prototxt.txt"
 
 
 def process_image(image):
