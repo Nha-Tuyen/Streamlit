@@ -11,10 +11,9 @@ with st.sidebar:
     hf_email = st.text_input("Enter Email: ")
     hf_password = st.text_input("Enter Password: ", type="password")
     if not (hf_email and hf_password):
-        st.warning("Please enter your account!",  icon='⚠')
+        st.warning("Please enter your account!", icon='⚠')
     else:
         st.success("Proceed to entering your prompt message!", icon='👉')
-
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
