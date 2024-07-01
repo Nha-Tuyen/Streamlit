@@ -30,3 +30,5 @@ W
 'source/__MACOSX/source/data/._vocab.txt,5\d\5da42d31c3a5a110188e7dde345b1dc102a8b8fc
 o
 ?source/__MACOSX/source/model/._MobileNetSSD_deploy.prototxt.txt,a\9\a980ab8507cce2580838f9ec110b1d1a72e9774e
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
